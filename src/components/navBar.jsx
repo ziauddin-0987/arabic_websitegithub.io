@@ -48,7 +48,7 @@ function navBar() {
             return (
               <>
                 {/* // <div className="topContractleft"> */}
-              <li key={e.length} className="hover-border-p-color p-t-color p-1">
+              <li key={e.length} className=" p-t-color p-1 ">
                 {e}
               </li>
                 {/* // </div> */}
@@ -68,7 +68,7 @@ function navBar() {
         <div className="ulList d-flex list-unstyled  gap-4  align-items-center">
           {data.map((e) => {
             return (
-              <li key={e.length} className="hover-border-p-color p-t-color" {hover?t-under-line:none }>
+              <li key={e.length} className="hover-border-p-color p-t-color nav-link" >
                 {e}
               </li>
             );
